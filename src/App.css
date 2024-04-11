@@ -1,0 +1,30 @@
+.navbar-container {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 15px 0; /* Padding top and bottom */
+  position: fixed; /* Position navbar fixed */
+  top: 0; /* Position from the top of the viewport */
+  width: 100%; /* Set width to 100% */
+  z-index: 1000; /* Set z-index to make sure it's above other content */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  display: inline; /* Display items horizontally */
+  margin-right: 20px; /* Add spacing between items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent */
+  font-weight: bold; /* Make text bold */
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Change text color on hover */
+}
